@@ -1,0 +1,2 @@
+<import src="./foncus.vue.wxml" />
+    <template is="063ffe14" data="{{ ...$root['0'], $root }}"/>

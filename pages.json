@@ -1,0 +1,84 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                "navigationBarTitleText" : "首页"
+            }
+        },
+        {
+            "path" : "pages/index/foncus",
+            "style" : {
+                "navigationBarTitleText" : "关注"
+            }
+        },
+        {
+            "path" : "pages/index/drill",
+            "style" : {
+                "navigationBarTitleText" : "简书钻"
+            }
+        },
+        {
+            "path" : "pages/index/information",
+            "style" : {
+                "navigationBarTitleText" : "消息"
+            }
+        },
+        {
+            "path" : "pages/index/mine",
+            "style" : {
+                "navigationBarTitleText" : "我的"
+            }
+        },
+        {
+            "path" : "pages/mine/mine",
+            "style" : {}
+        }
+    ],
+    "tabBar" : {
+        "color" : "#000000",
+        "selectedColor" : "#1a81d0",
+        "backgroundColor" : "#fafbff",
+        "borderStyle" : "black",
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "iconPath" : "static/index1.png",
+                "selectedIconPath" : "static/index2.png",
+                "text" : "首页"
+            },
+            {
+                "pagePath" : "pages/index/foncus",
+                "iconPath" : "static/foncus1.png",
+                "selectedIconPath" : "static/foncus2.png",
+                "text" : "关注"
+            },
+            {
+                "pagePath" : "pages/index/drill",
+                "iconPath" : "static/drill1.png",
+                "selectedIconPath" : "static/drill2.png",
+                "text" : "简书钻"
+            },
+            {
+                "pagePath" : "pages/index/information",
+                "iconPath" : "static/information1.png",
+                "selectedIconPath" : "static/information2.png",
+                "text" : "消息"
+            },
+            {
+                "pagePath" : "pages/index/mine",
+                "iconPath" : "static/mine1.png",
+                "selectedIconPath" : "static/mine2.png",
+                "text" : "我的"
+            }
+        ]
+    },
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "uni-app",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8",
+        "navigationStyle" : "custom"
+    }
+}
